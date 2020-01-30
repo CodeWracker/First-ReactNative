@@ -4,7 +4,7 @@ import {StyleSheet} from 'react-native'
 const styles = StyleSheet.create({
     content: {
         flex: 1,
-        backgroundColor: '#606060',
+        backgroundColor: '#2c3a50',
         alignItems: 'center',
         justifyContent: 'center'
     },
@@ -12,11 +12,33 @@ const styles = StyleSheet.create({
         color: '#fff',
         fontSize: 20
     },
-    texto: {
-        color: 'orange',
+    btntxt: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: 'white'
     },
     botao:{
-        backgroundColor: 'white'
+        backgroundColor: '#3498db',
+        width: 300,
+        height: 42,
+        marginTop: 10,
+        borderRadius: 4,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    logo:{
+        width: 150,
+        height: 150,
+        borderRadius: 100
+    },
+    input:{
+        marginTop: 10,
+        width: 300,
+        backgroundColor: '#fff',
+        fontSize: 16,
+        fontWeight: 'bold',
+        borderRadius: 16,
+        padding: 10
     }
   });
 
